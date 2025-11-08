@@ -21,19 +21,16 @@ label {
 
 time {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   font-weight: normal;
 }
 
 em {
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  color: gray;
+  font-weight: normal;
 }
 
 #time-slider {
-  margin-bottom: 10px;
+  margin-bottom: -4px;
   width: 400px;
 }
 
@@ -43,7 +40,7 @@ em {
   margin-block: 14px;
 }
 
-.legend > div {
+.legend>div {
   flex: 1;
   text-align: center;
   font-weight: bold;
@@ -53,21 +50,21 @@ em {
   --color-departures: steelblue;
   --color-arrivals: darkorange;
   --color: color-mix(in oklch,
-            var(--color-departures) calc(100% * var(--departure-ratio)),
-            var(--color-arrivals));
+      var(--color-departures) calc(100% * var(--departure-ratio)),
+      var(--color-arrivals));
   background-color: var(--color);
 }
 
-.legend > div:nth-child(1) {
-  text-align: left; 
+.legend>div:nth-child(1) {
+  text-align: left;
   padding-left: 4px;
 }
 
-.legend > div:nth-child(2) {
-  text-align: center; 
+.legend>div:nth-child(2) {
+  text-align: center;
 }
 
-.legend > div:nth-child(3) {
-  text-align: right; 
+.legend>div:nth-child(3) {
+  text-align: right;
   padding-right: 4px;
 }
