@@ -4,7 +4,7 @@ import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 import mapboxgl from 'https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/+esm';
 
 // Set your Mapbox access token here
-mapboxgl.accessToken = 'pk.eyJ1IjoiY2hpbGxpbmdhbmRjb2RpbmciLCJhIjoiY21ocGtodnF4MGt2ZzJtcHZnbzEwM3M3ZiJ9.UIQHcioA6Ff3_Pmj4TMq3w';
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2hpbGxpbmdhbmRjb2RpbmciLCJhIjoiY21peGZpY3ZwMDN3ODNmcHliZnQwZWNkciJ9.o4cxT65WsEtlF7QTlONdyA';
 
 function getCoords(station) {
     const point = new mapboxgl.LngLat(+station.lon, +station.lat); // Convert lon/lat to Mapbox LngLat
